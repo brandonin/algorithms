@@ -27,7 +27,7 @@ var test2 = {
 	bla: "even more stuff"
 }
 
-function extend(obj, stuff){
+function extend(obj){
 	for(var i = 1; i<arguments.length; i++){
 		for(var a in arguments[i]){
 			obj[a] = arguments[i][a];
@@ -37,7 +37,4 @@ function extend(obj, stuff){
 }
 console.log(extend(obj, test, test2));
 
-// function extend(obj, arguments){
-
-// }
 
