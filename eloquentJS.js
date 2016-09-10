@@ -9,13 +9,16 @@ function arrayToList(array) {
 
 // function flatten(array) {
 // 	array.reduce(function(a, b){
-// 		console.log('hello');
+// 		console.log(a.concat(b));
 // 		return a.concat(b);
 // 	})
 // }
-// var bang = [[1,2,3], [4,5,6], [7,8,9]];
+var bang = [[1,2,3], [4,5,6], [7,8,9]];
 // console.log(flatten(bang));	
 
+// console.log(bang.reduce(function(a, b){
+// 		return a.concat(b);
+// 	}))
 
 var obj = {key1: "something"};
 

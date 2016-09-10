@@ -1,2 +1,4 @@
-var test = "I bought a great vape one day.";
-console.log(test.indexOf("vape"));
+var line = "This is a test,t";
+
+var array = line.split(',');
+console.log(array[0].lastIndexOf(array[1]));
